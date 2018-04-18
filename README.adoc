@@ -1,0 +1,3 @@
+
+
+Cette application permet d'effectuer des opérations de recherche, visualisation, insertion, modification, suppression sur le fichier xml qui se trouve dans le lien suivant : http://dblp.uni-trier.de/xml/ En utilisant les technologies: XML, XPATH, XSLT, HTML/PHP.

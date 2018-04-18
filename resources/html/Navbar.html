@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Biblio Manager</title>
+        <meta charset="utf-8" />
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+        <link href="resources/css/navbarStyle.css" rel="stylesheet">
+        <script src="resources/js/jquery-3.3.1.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+<nav class="navbar navbar-expand-lg navbar-light " >
+  <img src="resources/img/logo.jpg">
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#fcb514;">
+          Recherche
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/xmlproject/Recherche.php?type=auteur"  style="color:#144378;" >Par auteur</a>
+          <a class="dropdown-item" href="/xmlproject/Recherche.php?type=titre"  style="color:#144378;">Par titre</a>
+          <a class="dropdown-item" href="/xmlproject/Recherche.php?type=annee"  style="color:#144378;">Par année</a>
+          <a class="dropdown-item" href="/xmlproject/Recherche.php?type=key"  style="color:#144378;">Par key</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#fcb514;">
+          Visualisation
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/xmlproject/Visualisation.php?type=auteur"  style="color:#144378;">Auteur</a>
+          <a class="dropdown-item" href="/xmlproject/Visualisation.php?type=titre"  style="color:#144378;">Titre</a>
+          <a class="dropdown-item" href="/xmlproject/Visualisation.php?type=annee"  style="color:#144378;">Année</a>
+          <a class="dropdown-item" href="/xmlproject/Visualisation.php?type=key"  style="color:#144378;">key</a>
+        </div>
+      </li>
+
+      <li class="nav-item" >
+        <a class="nav-link" href="/xmlproject/Insertion.php" style="color:#fcb514;">Insertion</a>
+      </li>
+
+      <li class="nav-item" >
+        <a class="nav-link" href="/xmlproject/Modification.php" style="color:#fcb514;">Modification</a>
+      </li>
+
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#fcb514;">
+          Supression
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/xmlproject/Suppression.php?type=auteur"  style="color:#144378;" >Par auteur</a>
+          <a class="dropdown-item" href="/xmlproject/Suppression.php?type=titre"  style="color:#144378;">Par titre</a>
+          <a class="dropdown-item" href="/xmlproject/Suppression.php?type=annee"  style="color:#144378;">Par année</a>
+          <a class="dropdown-item" href="/xmlproject/Suppression.php?type=key"  style="color:#144378;">Par key</a>
+        </div>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
